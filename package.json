@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A simple koa+reactjs seed for diversivo projects",
   "private": true,
+  "engines": {
+    "node": "8.11.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./server/src/index.js",
