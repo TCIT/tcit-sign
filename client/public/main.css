@@ -1,0 +1,72 @@
+body{
+  background-color: grey;
+}
+
+#root{
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  height: 100px;
+  width: 490px;
+  padding-left: 15px;
+  background-color: white;
+  display: flex;
+}
+
+.container { 
+  height: 100px;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.name-position{
+  margin-left: 90px;
+  width: 150px;
+}
+
+.data {
+  margin-left: 250px;
+  width: 220px;
+}
+
+#name{
+  font-size: 18px;
+  font-weight:bold;
+  color: #58585a;
+}
+
+#position{
+  font-size: 15px;
+  font-weight:100;
+  color: #939396;
+}
+
+#divider{
+  margin-left: 230px;
+  width: 1px;
+  height: 70px;
+  display: block;
+  background-color: #21bdb8;
+}
+
+.fas, .fab{
+  font-size: 15px;
+  color: #21bdb8;
+}
+
+.phone, .email, .linkedin {
+  font-size: 15px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #939396;
+}
+
+#in-color{
+  color: #21bdb8;
+}
