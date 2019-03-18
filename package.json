@@ -9,7 +9,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./server/src/index.js",
-    // "build": "Webpack --mode development --colors",
     "eslint": "eslint --fix"
   },
   "keywords": [
