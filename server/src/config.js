@@ -6,5 +6,5 @@ const env = ['test', 'production', 'development', 'staging'].indexOf(process.env
 module.exports = {
   myURL: process.env.MY_URL,
   env: env ? 'development' : process.env.NODE_ENV,
-  port: process.env.APP_PORT || 8888,
+  port: process.env.PORT || 8888,
 };
