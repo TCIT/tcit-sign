@@ -1,41 +1,26 @@
-body{
-  background-color: grey;
-}
 
 #root{
   font-family: 'Roboto', sans-serif;
-  display: block;
   height: 100px;
-  width: 490px;
-  padding-left: 15px;
-  background-color: white;
-  display: flex;
-}
-
-.container { 
-  height: 100px;
-  position: relative;
+  width: 300px;
+  display: table
 }
 
 .vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  margin-left: 10px;
+  vertical-align: middle;
 }
 
 .name-position{
-  margin-left: 90px;
   width: 150px;
 }
 
 .data {
-  margin-left: 250px;
   width: 220px;
 }
 
 #name{
+  
   font-size: 18px;
   font-weight:bold;
   color: #58585a;
@@ -48,7 +33,7 @@ body{
 }
 
 #divider{
-  margin-left: 230px;
+  margin-left: -10px;
   width: 1px;
   height: 70px;
   display: block;
